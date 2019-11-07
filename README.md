@@ -1,5 +1,5 @@
 # Create a new repository
-## git clone http://git.deha.vn:1080/Quan/AutoTest-KeiSan-Cucumber.git
+### git clone http://git.deha.vn:1080/Quan/AutoTest-KeiSan-Cucumber.git
 # cd AutoTest-KeiSan-Cucumber
 # touch README.md
 # git add README.md
