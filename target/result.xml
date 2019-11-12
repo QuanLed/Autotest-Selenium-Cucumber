@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="10.090396">
+    <testcase classname="Create Accounting Report" name="Create Successful Accounting Report" time="10.090396">
+        <skipped>
+            <![CDATA[Given Go to login page......................................................passed
+When Input email "user2@keisan.jp"..........................................passed
+And Input password "12345"..................................................passed
+And Click button login......................................................passed
+Then Display username "user2"...............................................passed
+Given Go to URL.............................................................passed
+When Click button Create Business Plan......................................passed
+And Input Data No "QLDS2"...................................................passed
+And Input Data title "DEHAでQUANのテストデータ".....................................passed
+And Input Company name "DEHA Software"......................................passed
+And Select business category................................................passed
+And Input Remarks "This is test data from DEHA's QA.".......................passed
+And Select Period unit......................................................passed
+And Select Period...........................................................passed
+And Input start date of business period "2019/01/02"........................passed
+And Select currency unit....................................................passed
+And Select Currency.........................................................passed
+And Input author "Quan Le"..................................................passed
+And Input Registration date "2019/01/02"....................................passed
+And Input abstract "Made by DEHA Software.".................................passed
+And Click button save and return............................................passed
+Then Display message successfull "事業計画が作成できました".............................passed
+And Display accounting report with data no "QLDS2"..........................pending
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
